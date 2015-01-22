@@ -1,0 +1,32 @@
+/* Offline page */
+#game {
+    color: #2b2b2b;
+    font-size: 1em;
+    line-height: 1.55;
+    margin: 100px auto 0;
+    max-width: 600px;
+    width: 100%;
+}
+
+.runner-container {
+    height: 150px;
+    max-width: 600px;
+    overflow: hidden;
+    position: absolute;
+    top: 10px;
+    width: 44px;
+    z-index: 2;
+}
+
+.runner-canvas {
+    height: 150px;
+    max-width: 600px;
+    opacity: 1;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+}
+
+#offline-resources {
+    display: none;
+}
