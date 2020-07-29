@@ -1,3 +1,7 @@
+body {
+    overflow: hidden;
+}
+
 /* Offline page */
 #game {
     color: #2b2b2b;
